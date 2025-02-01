@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Surprise Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: pink; /* Pink background */
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            font-size: 1.1em;
+            color: #555;
+        }
+        .question-text {
+            font-size: 1.3em;
+            margin-top: 20px;
+        }
+        .option {
+            display: block;
+            width: 200px;
+            margin: 15px auto;
+            padding: 10px;
+            background-color: #ff69b4;
+            color: white;
+            text-align: center;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        .option:hover {
+            background-color: #ff1493;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Let's Play a Game!</h1>
+        <p class="question-text">Wanna play a game?</p>
+        
+        <!-- Options -->
+        <a href="game.html?answer=yes" class="option">Yes</a>
+        <a href="game.html?answer=bilkul-ji" class="option">Bilkul Ji</a>
+    </div>
+</body>
+</html>
